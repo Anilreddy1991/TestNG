@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17426" started-at="2021-01-11T22:53:22 IST" finished-at="2021-01-11T22:53:39 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17426" started-at="2021-01-11T22:53:22 IST" finished-at="2021-01-11T22:53:39 IST">
+      <class name="org.cts.testngexamples.CustomerDate">
+        <test-method status="PASS" signature="testInitialaization()[pri:0, instance:org.cts.testngexamples.CustomerDate@6e6c3152]" name="testInitialaization" is-config="true" duration-ms="14529" started-at="2021-01-11T22:53:07 IST" finished-at="2021-01-11T22:53:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialaization -->
+        <test-method status="PASS" signature="createcustomer()[pri:1, instance:org.cts.testngexamples.CustomerDate@6e6c3152]" name="createcustomer" duration-ms="13793" started-at="2021-01-11T22:53:22 IST" finished-at="2021-01-11T22:53:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustomer -->
+        <test-method status="PASS" signature="selectproduct()[pri:2, instance:org.cts.testngexamples.CustomerDate@6e6c3152]" name="selectproduct" duration-ms="3550" started-at="2021-01-11T22:53:36 IST" finished-at="2021-01-11T22:53:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectproduct -->
+      </class> <!-- org.cts.testngexamples.CustomerDate -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

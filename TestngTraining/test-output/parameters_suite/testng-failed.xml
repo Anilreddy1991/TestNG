@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [parameters_suite]">
+  <test thread-count="5" name="login test(failed)">
+    <parameter name="fname" value="anil"/>
+    <parameter name="password" value="reddy"/>
+    <parameter name="lname" value="reddy"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://training.openspan.com/login"/>
+    <parameter name="email" value="anil2211@gmail.com"/>
+    <parameter name="username" value="anil"/>
+    <classes>
+      <class name="org.cts.testngexamples.TestngParameter">
+        <methods>
+          <include name="addUsers"/>
+        </methods>
+      </class> <!-- org.cts.testngexamples.TestngParameter -->
+    </classes>
+  </test> <!-- login test(failed) -->
+</suite> <!-- Failed suite [parameters_suite] -->

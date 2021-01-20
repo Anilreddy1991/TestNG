@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="parameters_suite">
+<test  name="login test">
+<parameter name="browser" value="chrome"/>
+<parameter name="url" value="http://training.openspan.com/login"/>
+<parameter name="username" value="anil"/>
+<parameter name="password" value="reddy"/>
+<parameter name="fname" value="anil"/>
+<parameter name="lname" value="reddy"/>
+<parameter name="email" value="anil2211@gmail.com"/>
+<classes>
+   <class name="org.cts.testngexamples.TestngParameter"/>
+</classes>
+</test> 
+</suite> 
